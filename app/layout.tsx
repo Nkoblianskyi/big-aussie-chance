@@ -1,15 +1,14 @@
 import type React from "react"
-import { Inter } from "next/font/google"
+import { Hind } from "next/font/google"
 import "./globals.css"
 import LayoutWrapper from "@/components/layout-wrapper"
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Hind({ subsets: ["latin"], weight: "400" })
 
 export const metadata = {
   title: "Big Aussie Chance - Oz Lotto Victoria",
   description:
     "Your gateway to Oz Lotto dreams in Victoria. Buy tickets, check results, and join thousands of winners.",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
