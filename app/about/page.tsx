@@ -13,9 +13,9 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                Big Aussie Chance is Victoria's premier platform for Oz Lotto information and ticket purchasing. We are
-                dedicated to providing Australians with a safe, secure, and exciting way to participate in the nation's
-                favorite lottery game.
+                Big Aussie Chance is Victoria's premier platform for lottery information and ticket purchasing. We are
+                dedicated to providing Australians with a safe, secure, and exciting way to participate in various
+                lottery games, including the popular Oz Lotto.
               </p>
 
               <p>
@@ -47,15 +47,16 @@ export default function AboutPage() {
 
               <p>
                 Starting as a small team of lottery enthusiasts and technology professionals, we began by creating
-                detailed guides and resources about Oz Lotto. We noticed that players often had questions about prize
-                structures, odds, claiming procedures, and responsible gambling practices, but struggled to find clear,
-                comprehensive answers.
+                detailed guides and resources about various lottery games, with a particular focus on Oz Lotto and other
+                popular Australian lotteries. We noticed that players often had questions about prize structures, odds,
+                claiming procedures, and responsible gambling practices, but struggled to find clear, comprehensive
+                answers.
               </p>
 
               <p>
                 Over time, we evolved from an information resource into a full-service platform that combines education
                 with convenience. Today, we serve thousands of Victorian lottery players, providing them with the tools,
-                information, and services they need to participate in Oz Lotto responsibly and enjoyably.
+                information, and services they need to participate in lottery games responsibly and enjoyably.
               </p>
 
               <p>
@@ -161,7 +162,7 @@ export default function AboutPage() {
                   <span className="text-yellow-500 mr-2">•</span>
                   <span>
                     <strong>Comprehensive Information:</strong> Detailed guides, statistics, and educational resources
-                    about Oz Lotto and responsible gambling
+                    about lottery games including Oz Lotto and responsible gambling
                   </span>
                 </li>
                 <li className="flex items-start">
@@ -202,7 +203,7 @@ export default function AboutPage() {
                 <div>
                   <h4 className="font-bold text-blue-800 mb-2">Ticket Purchasing</h4>
                   <ul className="list-disc list-inside space-y-1 text-sm">
-                    <li>Standard and system entries</li>
+                    <li>Standard and system entries for various lottery games</li>
                     <li>QuickPick and manual number selection</li>
                     <li>Multi-week subscriptions</li>
                     <li>Syndicate group play options</li>
@@ -213,7 +214,7 @@ export default function AboutPage() {
                 <div>
                   <h4 className="font-bold text-blue-800 mb-2">Information Resources</h4>
                   <ul className="list-disc list-inside space-y-1 text-sm">
-                    <li>Comprehensive game guides</li>
+                    <li>Comprehensive game guides for Oz Lotto and other lotteries</li>
                     <li>Historical results and statistics</li>
                     <li>Winner stories and testimonials</li>
                     <li>Prize claiming procedures</li>
