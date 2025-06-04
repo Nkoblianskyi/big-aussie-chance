@@ -34,15 +34,15 @@ export default function HistorySection() {
         sections: [
           {
             subtitle: "🎯 The Beginning",
-            text: "Oz Lotto was first drawn on 26 February 1994, making it Australia's first national lottery game. Originally known as 'The Australian Lotto,' it was created to provide Australians with bigger jackpots and more exciting prizes.",
+            text: "Australian lottery games were first introduced in the early 1990s, making them some of the nation's most popular games. Originally designed to provide Australians with bigger jackpots and more exciting prizes.",
           },
           {
             subtitle: "🔄 Evolution",
-            text: "The game format has evolved over the years. Initially, players selected 6 numbers from 1 to 45, but in 2005, the format changed to the current 7 numbers from 1 to 45 to create even larger jackpots.",
+            text: "The lottery formats have evolved over the years to create even larger jackpots and better odds for players.",
           },
           {
             subtitle: "🏆 Victoria's Success",
-            text: "Victoria has been home to some of the biggest Oz Lotto winners in history. The state's love affair with the lottery has produced numerous millionaires and contributed significantly to community projects.",
+            text: "Victoria has been home to some of the biggest lottery winners in history. The state's love affair with lottery games has produced numerous millionaires.",
           },
         ],
       },
@@ -53,7 +53,7 @@ export default function HistorySection() {
       content: {
         title: "Historic Moments in Oz Lotto",
         milestones: [
-          { year: "1994", event: "First Oz Lotto draw held", icon: "🎊" },
+          { year: "1994", event: "First lottery draw held", icon: "🎊" },
           { year: "1999", event: "First $10 million jackpot reached", icon: "💰" },
           { year: "2005", event: "Format changed to 7 numbers from 45", icon: "🔄" },
           { year: "2009", event: "First $50 million jackpot offered", icon: "🚀" },
@@ -68,7 +68,7 @@ export default function HistorySection() {
       title: "🌟 Victoria Impact",
       icon: "🏙️",
       content: {
-        title: "Oz Lotto's Impact on Victoria",
+        title: "Lottery Games' Impact on Victoria",
         impacts: [
           {
             category: "Community Impact",
@@ -108,7 +108,7 @@ export default function HistorySection() {
         <h2
           className={`text-3xl xs:text-4xl sm:text-5xl md:text-6xl font-black text-center mb-8 sm:mb-12 md:mb-16 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 bg-clip-text text-transparent transform transition-all duration-1000 px-2 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
         >
-          📜 History of Oz Lotto 📜
+          📜 History of Australian Lottery 📜
         </h2>
 
         {/* Tab Navigation */}
@@ -119,11 +119,10 @@ export default function HistorySection() {
             <button
               key={index}
               onClick={() => setActiveTab(index)}
-              className={`px-3 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4 rounded-xl sm:rounded-2xl font-bold text-sm sm:text-base md:text-lg transition-all duration-300 transform hover:scale-105 ${
-                activeTab === index
+              className={`px-3 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4 rounded-xl sm:rounded-2xl font-bold text-sm sm:text-base md:text-lg transition-all duration-300 transform hover:scale-105 ${activeTab === index
                   ? "bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-2xl"
                   : "bg-white text-gray-700 shadow-lg hover:shadow-xl border-2 border-gray-200"
-              }`}
+                }`}
             >
               <span className="text-lg sm:text-xl md:text-2xl mr-1 sm:mr-2">{tab.icon}</span>
               <span className="hidden xs:inline">{tab.title}</span>
@@ -215,7 +214,7 @@ export default function HistorySection() {
               {/* Future Section */}
               <div className="mt-8 sm:mt-12 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 text-white text-center">
                 <h3 className="text-xl sm:text-2xl md:text-3xl font-black mb-3 sm:mb-4">
-                  🚀 The Future of Oz Lotto 🚀
+                  🚀 The Future of Lottery Games 🚀
                 </h3>
                 <p className="text-sm sm:text-base md:text-lg leading-relaxed mb-4 sm:mb-6 px-2">
                   As technology continues to evolve, so does Oz Lotto. The game embraces digital transformation while

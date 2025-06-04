@@ -83,7 +83,7 @@ export default function InfoSection() {
         <h2
           className={`text-3xl xs:text-4xl sm:text-5xl font-black text-center mb-8 sm:mb-12 md:mb-16 bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent transform transition-all duration-1000 px-2 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
         >
-          🎲 About Oz Lotto in Victoria 🎲
+          🎲 About Lottery Games in Victoria 🎲
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 mb-8 sm:mb-12 md:mb-16">
@@ -131,28 +131,28 @@ export default function InfoSection() {
           <Card className="relative overflow-hidden border-0 shadow-2xl bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600">
             <div className="absolute inset-0 bg-black/20"></div>
             <CardHeader className="relative z-10 text-center">
-              <CardTitle className="text-4xl font-black text-white mb-4">🏆 Oz Lotto in Victoria 🏆</CardTitle>
+              <CardTitle className="text-4xl font-black text-white mb-4">🏆 Lottery Games in Victoria 🏆</CardTitle>
             </CardHeader>
             <CardContent className="relative z-10 space-y-6 text-white/95 leading-relaxed text-lg">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="space-y-4">
                   <p className="animate-fadeIn">
-                    🎯 Oz Lotto is one of Victoria's most popular lottery games, offering some of the biggest jackpots
-                    in Australia. The game is drawn every Tuesday night and requires players to select 7 numbers from 1
-                    to 45.
+                    🎯 Our lottery games are among Victoria's most popular, offering some of the biggest jackpots in
+                    Australia. The game is drawn every Tuesday night and requires players to select 7 numbers from 1 to
+                    45.
                   </p>
                   <p className="animate-fadeIn">
-                    🏪 In Victoria, Oz Lotto tickets can be purchased from authorized retailers across the state,
+                    🏪 In Victoria, lottery tickets can be purchased from authorized retailers across the state,
                     including newsagents, convenience stores, and through official online platforms like ours.
                   </p>
                 </div>
                 <div className="space-y-4">
                   <p className="animate-fadeIn">
-                    🏆 Victoria has been home to numerous Oz Lotto jackpot winners, with several Division 1 prizes
+                    🏆 Victoria has been home to numerous lottery jackpot winners, with several Division 1 prizes
                     claimed by Victorian residents each year.
                   </p>
                   <p className="animate-fadeIn">
-                    🏥 A portion of all Oz Lotto ticket sales in Victoria goes toward community initiatives, funding
+                    🏥 A portion of all lottery ticket sales in Victoria goes toward community initiatives, funding
                     important projects in health, education, sports, arts, and emergency services.
                   </p>
                 </div>
@@ -160,11 +160,11 @@ export default function InfoSection() {
 
               <div className="bg-white/10 rounded-2xl p-6 backdrop-blur-sm">
                 <h3 className="text-2xl font-bold text-yellow-300 mb-4 text-center">
-                  🎮 How to Play Oz Lotto in Victoria
+                  🎮 How to Play Lottery Games in Victoria
                 </h3>
                 <p className="text-center mb-4">
-                  Playing Oz Lotto is simple! Select 7 numbers from 1 to 45, or choose a QuickPick for randomly
-                  generated numbers. You must be 18+ to play.
+                  Playing lottery games is simple! Select your numbers or choose a QuickPick for randomly generated
+                  numbers. You must be 18+ to play.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                   <div className="bg-white/10 rounded-lg p-4">
